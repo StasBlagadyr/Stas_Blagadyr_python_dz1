@@ -23,4 +23,6 @@ elif time_interval > 86400 and time_interval <= 604800 :
     result_min = ((time_interval % 86400) % 3600) // 60
     result_sek = ((time_interval % 86400) % 3600) % 60
     print(result_day, "дн.",result_hour, "часов", result_min, "мин", result_sek, "сек")
+    
+
 
